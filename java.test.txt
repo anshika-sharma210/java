@@ -1,0 +1,31 @@
+class test
+{
+public static void main(string ss[])
+{
+java.util.scanner s=new java.util.scanner(syatem.in);
+System.out .print ln("Enter First No...");
+int n1=s.nextInt();
+  
+system.out.println("Enter second No....");
+int n2=s.nextInt();
+
+intr1=n1+n2;
+
+system.out.println(sum of two no="+r1);
+try
+{
+
+intr3=n1/n2;
+
+system.out.println("div of two no="r2);
+} 
+catch(Exception e1)
+system.out.println(el)
+
+int r3=n1*n2;
+
+system.out.prontln("mul of two no="r3);
+
+system.out.println("normal code....");
+
+}
