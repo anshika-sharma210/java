@@ -1,0 +1,27 @@
+package initializer;
+
+public class initializerDemo {
+	// Initializer block starts.
+	{
+	// this code executed before every constructor.
+System.out.println("Common part of constructor involved !!");
+	}
+	//Initializer block ends
+	public initializerDemo ()
+	{
+		System.out.println("Default constuctor invoked");
+		}
+	public initializerDemo(int X)
+	{
+		System.out.println("Parametrized constuctor invoked");
+	}
+	public static void main(String[] args) 
+	{
+		initializerDemo obj1, obj2;
+
+		obj1 = new initializerDemo();
+		obj2 = new initializerDemo(0);
+		 }
+}
+
+
